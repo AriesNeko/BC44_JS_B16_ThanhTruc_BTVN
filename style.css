@@ -1,2 +1,41 @@
 hr {
-    border-top: 1px dotted #ffc107;}
+  border-top: 1px dotted #ffc107;
+}
+
+.custome .display {
+  display: block;
+  height: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.custome .form-group {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.red {
+  background-color: #ca3d36;
+}
+
+.green {
+  background-color: #17a2b8;
+}
+
+.red,
+.green {
+  height: 30px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5px;
+  align-items: center;
+  border-radius: 5px;
+}
+
+
+.bai4 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
